@@ -2,7 +2,15 @@
 
 ## 3/7/2019
 
----
+### Launch a specific browser with create-react-app
+
+- package.json
+
+```javascript
+"scripts": {
+    "start": "BROWSER='Firefox Developer Edition' react-scripts start"
+}
+```
 
 ## 3/6/2019
 
@@ -16,12 +24,10 @@
 
 ### Gay Hendrick's genius move
 
-- Any time you **notice** any sort of unhappiness in you...
-- Ask, **what am I trying to control** that is not in my power to control...
-- Sometimes you get an immediate **insight**, if not spend time thoughtfully wondering...
-- Formally declare it outside of your control; let it go, let it be. Now, **think of a positive action you have control over and take it**
-
----
+1. Any time you **notice** any sort of unhappiness in you...
+2. Ask, **what am I trying to control** that is not in my power to control
+3. Sometimes you get an immediate **insight**, if not spend time thoughtfully wondering
+4. Formally declare it outside of your control; let it go, let it be. Now, **think of a positive action you have control over and take it**
 
 ## 3/5/2019
 
