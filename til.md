@@ -1,5 +1,29 @@
 # { Today I Learned }
 
+## 3/15/2019
+
+### Render Props
+
+```javascript
+// creating -> see hooks example
+
+// implementing
+<Toggle>{({ on, toggle }) => <Fancy on={on} toggle={toggle} />}</Toggle>
+```
+
+### Hooks
+
+```javascript
+import { useState } from 'react';
+
+const Toggle = ({ children }) => {
+  const [isToggled, setToggle] = useState(false);
+  return children({ isToggled, setToggle });
+};
+
+export default Toggle;
+```
+
 ## 3/7/2019
 
 ### Launch a specific browser with create-react-app
