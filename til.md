@@ -1,5 +1,33 @@
 # { Today I Learned }
 
+## 3/22/2019
+
+- couple tips I've known for a while but nice to capture on the page
+
+### Add a color to VS Code Title Bar
+
+- great idea from Wes Bos, color the title bar based on project, frontend vs backend, etc.
+- create a folder `.vscode` in the project (make sure to uncomment .gitignore)
+- add a file `settings.json` to the folder
+- add some customizations:
+
+```javascript
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#2ecc40",
+    "titleBar.inactiveBackground": "#3d9970"
+  }
+}
+```
+
+### Add a link to a MD file
+
+[Today I Learned](https://www.github.com/erickbennett/til.git)
+
+```markdown
+[Today I Learned](https://www.github.com/erickbennett/til.git)
+```
+
 ## 3/15/2019
 
 ### Render Props
