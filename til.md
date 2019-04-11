@@ -1,5 +1,16 @@
 # { Today I Learned }
 
+## 4/11/2019
+
+- properties for keeping font widths the same for 'skinny' vs 'wide' numbers
+
+```css
+p {
+  font-feature-settings: 'tnum';
+  font-variant-numeric: tabular-nums;
+}
+```
+
 ## 3/22/2019
 
 - couple tips I've known for a while but nice to capture on the page
