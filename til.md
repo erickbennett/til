@@ -1,5 +1,15 @@
 # { Today I Learned }
 
+## 4/19/2019
+
+- How to submit a form after preventing it from submitting
+
+```javascript
+e.preventDefault();
+const { target } = e;
+const formSubmitCallback = () => target.parentElement.submit();
+```
+
 ## 4/11/2019
 
 - properties for keeping font widths the same for 'skinny' vs 'wide' numbers
