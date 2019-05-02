@@ -1,5 +1,19 @@
 # { Today I Learned }
 
+## 5/2/2019
+
+* Using React.Children to add props to child elements
+
+```javascript
+const newChildren = React.Children.map(this.props.children, (child) => {
+  return React.cloneElement(child, {
+    isActive: this.state.value === child.props.value
+  })
+})
+
+```
+
+
 ## 4/19/2019
 
 - How to submit a form after preventing it from submitting
