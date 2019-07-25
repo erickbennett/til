@@ -1,5 +1,29 @@
 # { Today I Learned }
 
+## 7/25/2019
+
+* not new but good to remember
+
+```javascript
+const errorStyle = 'font-weight: bold; font-size: 32px; color: red; text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;'
+
+console.error('%c Gasp!', consoleStyle, error)
+
+console.info('%c Barely worth a mention, this.', 'color: blue; font-size: 12px')
+
+console.clear()
+console.assert(buckeye > wolverine) // true
+console.table(anArray)
+```
+
+* use browser sync for a quick work
+* installed globally
+
+```
+$browser-sync start --server --files '*.css, *.html, *.js' --browser firefox"
+```
+
+
 ## 5/2/2019
 
 * Using React.Children to add props to child elements
