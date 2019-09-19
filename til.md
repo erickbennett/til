@@ -2,7 +2,7 @@
 
 ## 9/19/2019
 
-* if you use React snippets for VS Code... `RFAC` is the snippet for creating a function component
+* if you use React snippets for VS Code... `RFAC` is the snippet for creating a functional component (using the arrow syntax)
 
 
 
