@@ -1,5 +1,11 @@
 # { Today I Learned }
 
+## 9/19/2019
+
+* if you use React snippets for VS Code... `RFAC` is the snippet for creating a function component
+
+
+
 ## 7/25/2019
 
 * not new but good to remember
