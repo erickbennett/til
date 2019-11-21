@@ -1,5 +1,14 @@
 # { Today I Learned }
 
+
+## 11/21/2019
+
+* a quick and very easy way to switch between Node JS versions is the npm package 'n'
+* to install `$sudo npm install -g n` (can also use Brew to install)
+* to switch versions `$sudo n 9.11.0` -> n will either switch (if previously installed) or install that version and switch
+* to view (and switch) what's available `$n`
+
+
 ## 9/19/2019
 
 * if you use React snippets for VS Code... `RFAC` is the snippet for creating a functional component (using the arrow syntax)
