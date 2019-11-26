@@ -11,6 +11,13 @@
 - select Install 'code' command in PATH
 - from CLI `$code .` to open current folder or `$code file.name` for a specific file
 
+### Change permissions on .config
+
+- error message ".config/git/ignore': Permission denied"
+- In Terminal cd to the User directory `$cd ~`
+- Change permissions with `$sudo chmod 755 .config`
+- Enter pwd
+
 ## 11/21/2019
 
 - a quick and very easy way to switch between Node JS versions is the npm package 'n'
