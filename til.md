@@ -1,57 +1,65 @@
 # { Today I Learned }
 
+## 11/26/2019
+
+### Open VS Code from the CLI
+
+(been using this one for a long time but had to recently set up again)
+
+- open the Command Palette (shift + command + p)
+- enter 'shell command'
+- select Install 'code' command in PATH
+- from CLI `$code .` to open current folder or `$code file.name` for a specific file
 
 ## 11/21/2019
 
-* a quick and very easy way to switch between Node JS versions is the npm package 'n'
-* to install `$sudo npm install -g n` (can also use Brew to install)
-* to switch versions `$sudo n 9.11.0` -> n will either switch (if previously installed) or install that version and switch
-* to view (and switch) what's available `$n`
-
+- a quick and very easy way to switch between Node JS versions is the npm package 'n'
+- to install `$sudo npm install -g n` (can also use Brew to install)
+- to switch versions `$sudo n 9.11.0` -> n will either switch (if previously installed) or install that version and switch
+- to view (and switch) what's available `$n`
 
 ## 9/19/2019
 
-* if you use React snippets for VS Code... `RFAC` is the snippet for creating a functional component (using the arrow syntax)
-
-
+- if you use React snippets for VS Code... `RFAC` is the snippet for creating a functional component (using the arrow syntax)
 
 ## 7/25/2019
 
-* not new but good to remember
+- not new but good to remember
 
 ```javascript
-const errorStyle = 'font-weight: bold; font-size: 32px; color: red; text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;'
+const errorStyle =
+  'font-weight: bold; font-size: 32px; color: red; text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;';
 
-console.error('%c Gasp!', consoleStyle, error)
+console.error('%c Gasp!', consoleStyle, error);
 
-console.info('%c Barely worth a mention, this.', 'color: blue; font-size: 12px')
+console.info(
+  '%c Barely worth a mention, this.',
+  'color: blue; font-size: 12px'
+);
 
-console.clear()
-console.assert(buckeye > wolverine) // true
-console.table(anArray)
+console.clear();
+console.assert(buckeye > wolverine); // true
+console.table(anArray);
 ```
 
-* use browser sync for a quick work
-* installed globally
+- use browser sync for a quick work
+- installed globally
 
 ```
 $browser-sync start --server --files '*.css, *.html, *.js' --browser firefox"
 ```
 
-
 ## 5/2/2019
 
-* Using React.Children to add props to child elements
+- Using React.Children to add props to child elements
 
 ```javascript
-const newChildren = React.Children.map(this.props.children, (child) => {
+const newChildren = React.Children.map(this.props.children, child => {
   return React.cloneElement(child, {
     isActive: this.state.value === child.props.value
-  })
-})
-
+  });
+});
 ```
-
 
 ## 4/19/2019
 
