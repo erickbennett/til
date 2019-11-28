@@ -1,5 +1,14 @@
 # { Today I Learned }
 
+
+## 11/28/2019
+
+* got one of those ext drives you can't partition? greyed out in disk util?
+
+`$diskutil erasedisk hfs+ External GPT /dev/disk2` - where the drive is disk2
+
+
+
 ## 11/26/2019
 
 ### Open VS Code from the CLI
