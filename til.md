@@ -1,13 +1,37 @@
 # { Today I Learned }
 
+## 01/26/2021
+
+- set the default formatter for VS Code
+  - Search for 'formatter' in Settings
+  - `Editor: Default Formatter` to set which formatter takes priority (e.g. esbenp.prettier.vscode)
+
+* Cocoapods workaround for M1 Macs - a couple possible fixes until various development tooling is native
+
+  - set terminal to run in rosetta (no noticeable changes for me)
+  - re-install cocapods and a specific gem that is in conflict (in my case it was ffi)
+    `install cocoapods`
+    `sudo gem install cocoapods`
+    `sudo gem install ffi`
+
+* Next JS and GQL/Apollo Performance Reminders
+
+  - don't use SSR unless you need it
+  - avoid using Get Initial Props (and use things like router.query)
+  - Next build will detect if you are relying on SSR / Get Initial Props and will create a static build automatically if you are not
+  - Stop query polling with Apollo queries if the client window does not have focus (great for instances where a page or app is minimized)
+
+* ZSH Path - to add to your PATH when using ZSH it is a simple as adding entries to your `.zshrc` file
+  `export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true`
+  `export ANDROID_HOME=${HOME}/Library/Android/sdk`
+  `export PATH=${PATH}=${PATH}:${ANDROID_HOME}/tools`
+  `export PATH=${PATH}=${PATH}:${ANDROID_HOME}/platform-tools`
 
 ## 11/28/2019
 
-* got one of those ext drives you can't partition? greyed out in disk util?
+- got one of those ext drives you can't partition? greyed out in disk util?
 
 `$diskutil erasedisk hfs+ External GPT /dev/disk2` - where the drive is disk2
-
-
 
 ## 11/26/2019
 
@@ -72,7 +96,7 @@ $browser-sync start --server --files '*.css, *.html, *.js' --browser firefox"
 ```javascript
 const newChildren = React.Children.map(this.props.children, child => {
   return React.cloneElement(child, {
-    isActive: this.state.value === child.props.value
+    isActive: this.state.value === child.props.value,
   });
 });
 ```
