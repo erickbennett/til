@@ -1,9 +1,6 @@
-# Eclipse
 .classpath
 .project
 .settings/
-
-# Intellij
 .idea/
 *.iml
 *.iws
