@@ -1,5 +1,28 @@
 # { Today I Learned }
 
+## 03/18/2021
+
+- patch an npm package
+
+  - create a `patches/` folder in the project root
+  - copy the author's patch file into this folder
+  - add a script to `package.json`
+    - `"postinstall": "patch-package"`
+  - to manually patch run `$npm i patch-package`
+  - patch will otherwise automatically be applied when `$npm i`
+
+- unix PS commands
+
+  - `$top` to view the 'top' of the list of running processes
+  - `$ps axjf` to display processes regardless of user in a tree view
+  - `$pkill process-name` to stop a process by name
+
+- Android Emulator Device Commands
+
+  - `$adb devices` to display a list of connected devices
+  - `$adb reboot` to restart adb
+  - `$adb kill-server` kill the adb server
+
 ## 01/26/2021
 
 - set the default formatter for VS Code
