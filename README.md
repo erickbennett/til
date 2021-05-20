@@ -1,5 +1,14 @@
 # { Today I Learned }
 
+## 05/20/2021
+
+- Need to change the case of a file in a git repo?
+- Changed it in your editor?
+- Realized git doesn't track and commit your change?
+
+Fix:
+`$git mv file.js File.js`
+
 ## 04/04/2021
 
 - to view the git origin url `$git remote -v`
