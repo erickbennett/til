@@ -1,5 +1,39 @@
 # { Today I Learned }
 
+
+## 06/25/2021
+
+Chrome Flags
+
+There are a host of url flags to view Chrome information and change settings. For example:
+
+- chrome://flags
+- chrome://about
+
+
+## 06/3/2021
+
+Add an applescript to mute the system input
+
+### Step One - Create Script
+
+- see example
+
+### Step Two - Setup Automator
+
+- open Automator
+- make a new quick action
+- set receives to no input
+- add an applescript
+- copy/paste from the script from step one
+- save
+
+## Step Three - Enable Script
+
+- open system preferences security
+- under accessibility add automator
+- under keyboard - shortcuts - services, ensure muteToggle is checked
+
 ## 05/20/2021
 
 - Need to change the case of a file in a git repo?
