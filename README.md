@@ -1,5 +1,21 @@
 # { Today I Learned }
 
+## 10/10/2021
+
+macOS - shift control click the bluetooth icon to reveal bluetooth options (like reset module)
+
+## 09/15/2021
+
+add making a static git hub file a website to TIL
+
+https://htmlpreview.github.io/?https://github.com/erickbennett/tsu-counters/blob/main/tsu_counters.html
+
+add to til:
+
+double click to select a word
+then press command + d to select the next instance of the word
+repeat until you've selected all the ones you want
+now make one change to all
 
 ## 06/25/2021
 
@@ -9,7 +25,6 @@ There are a host of url flags to view Chrome information and change settings. Fo
 
 - chrome://flags
 - chrome://about
-
 
 ## 06/3/2021
 
