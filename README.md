@@ -1,5 +1,13 @@
 # { Today I Learned }
 
+## 11/19/2021
+
+### Saving Size of a Finder Window
+
+- open Finder and set size of window
+- close all Finder windows
+- hold down the Option key, right-click the Finder icon and select relaunch
+
 ## 10/10/2021
 
 macOS - shift control click the bluetooth icon to reveal bluetooth options (like reset module)
