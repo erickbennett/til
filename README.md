@@ -1,5 +1,13 @@
 # { Today I Learned }
 
+## 3/29/2022 iOS Simulator "shutdown" error
+
+if you attempt `$npm run ios` and receive the device shutdown error, try these steps:
+
+- erase all content and settings
+- run the simulator from xcode directly -> go to the main menu and choose developer tools
+- select the correct version of iPhone to run
+
 ## 11/19/2021
 
 ### Saving Size of a Finder Window
