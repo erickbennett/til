@@ -1,5 +1,10 @@
 # { Today I Learned }
 
+## 4/11/2022 VSCode Tricks
+
+- to open a file in a separate window: CMD +K, then O
+- top select multiple matching items: select one and press CMD + D each time to select the next one
+
 ## 4/11/2022 Android APK Install
 
 - to install to a device:
