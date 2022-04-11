@@ -1,5 +1,12 @@
 # { Today I Learned }
 
+## 4/11/2022 Android APK Install
+
+- to install to a device:
+  `$adb install -r ~/sourcefolder/theapp.apk`
+
+- to intall to an emulator -> drag and drop
+
 ## 3/29/2022 iOS Simulator "shutdown" error
 
 if you attempt `$npm run ios` and receive the device shutdown error, try these steps:
