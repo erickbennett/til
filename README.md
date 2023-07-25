@@ -1,5 +1,50 @@
 # { Today I Learned }
 
+## 7/25/2023 M1 and M2 Mac React Native Setup
+
+### Installation
+
+- [Install Zulu Java](https://www.azul.com/core-post-download/?endpoint=zulu&uuid=671a53e7-4f57-451c-9296-5c0199f247d5)
+
+- Install Android Studio
+- Install Xcode
+- Install Xcode command line tools `xcode-select --install`
+- Install Homebrew (see curl url on site)
+- Install Ruby `brew install ruby`
+
+- Modify your `.zshrc` to include these references:
+  `export PATH=/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:$PATH`
+  (Note, you will need to change the ver of ruby for the above path)
+  `export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"`
+  `export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"`
+
+- Install watchman `brew install watchman`
+- Install libffi (this is optional if errors) `brew install libffi`
+- Install ffi `gem install ffi`
+- Install cocoapods `gem install cocoapods` (not, this may require sudo)
+
+### Troubleshooting
+
+#### Gem Update
+
+You may have to run these commands at some point, if you get errors:
+`sudo gem install -n /usr/local/bin cocoa pods`
+`pod install --repo-update`
+
+#### Rosetta M2 Issue
+
+If you have an M2 Mac, Rosetta is not installed. If you see this error:
+
+"Failed to launch the app on simulator, An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):"
+
+You may need to install Rosetta.
+
+check if Rosetta is installed with:
+`/usr/bin/pgrep -q oahd && echo Yes || echo No`
+
+If No, install Rosetta with:
+`softwareupdate --install-rosetta --agree-to-license`
+
 ## 4/11/2022 VSCode Tricks
 
 - to open a file in a separate window: CMD +K, then O
