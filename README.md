@@ -1,5 +1,40 @@
 # { Today I Learned }
 
+## 7/26/2023 Random
+
+- How to find the .app file from an iOS build
+
+  - Xcode -> Archive -> Select Build -> Right Click and Show in Finder -> right click on .xcarchive file and choose Show Package Contents -> navigate to Product\Applications
+
+- url for React Native to open another app
+
+  - `const APP_URL = 'AppName://app';`
+
+- To see a list of drives with their identifiers `diskutil list`
+- to erase a drive and reformt to JHFS+ `diskutil eraseDisk JHFS+ DriveName /dev/disk7`
+- to merge partitions `diskutil mergePartitions ExFat NEWDRIVE disk7s3 disk7s4`
+
+- VS Code Shortcuts
+
+  - cmd + k + o to open a new window
+  - select text + cmd + d to select multiple matches
+
+- to curl a GraphQL query `curl --request POST --header 'content-type: application/json' --url 'https://server.address/graphql' --data '{"query":"query version {version\n}"}'`
+
+- JavaScript Logical OR Assignment
+
+`x ||= y`
+
+- if x is falsy it's value is now y
+
+`x &&= y`
+
+- if x is truthy it's value is now y
+
+`x ?? = y`
+
+- if x is null or undefined it's value is now y'
+
 ## 7/25/2023 M1 and M2 Mac React Native Setup
 
 ### Installation
