@@ -39,6 +39,8 @@ If you have an M2 Mac, Rosetta is not installed. If you see this error:
 
 You may need to install Rosetta.
 
+Note - if this line is in your pod file `config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = "arm64"` - if you remove it you won't need Rosetta. This was a work around for Macs still using Rosetta
+
 check if Rosetta is installed with:
 `/usr/bin/pgrep -q oahd && echo Yes || echo No`
 
